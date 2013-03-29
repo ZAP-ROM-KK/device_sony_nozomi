@@ -1,0 +1,42 @@
+[
+    {
+        "repository":   "SlimRoms/device_sony_common",
+        "target_path":  "device/sony/common",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/device_sony_qcom-common",
+        "target_path":  "device/sony/qcom-common",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/device_sony_fuji-common",
+        "target_path":  "device/sony/fuji-common",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/proprietary_vendor_sony",
+        "target_path":  "vendor/sony",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "SlimRoms/kernel_sony_msm8x60",
+        "target_path":  "kernel/sony/msm8x60",
+        "branch":     "jb4.2"
+    },
+    {
+        "repository":   "CyanogenMod/android_hardware_sony_DASH",
+        "target_path":  "hardware/sony/DASH",
+        "branch":     "cm-10.1"
+    },
+    {
+        "repository":   "CyanogenMod/android_hardware_qcom_display-caf",
+        "target_path":  "hardware/qcom/display-caf",
+        "branch":     "cm-10.1"
+    },
+    {
+        "repository":   "OpenSEMC/android_hardware_qcom_audio-caf",
+        "target_path":  "hardware/qcom/audio-caf",
+        "branch":     "cm-10.1"
+    }
+]
