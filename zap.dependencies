@@ -1,0 +1,44 @@
+[
+    {
+        "repository":   "device_sony_common",
+        "remote": "slim", 
+        "target_path":  "device/sony/common",
+        "revision":     "jb4.2"
+    },
+    {
+        "repository":   "device_sony_qcom-common",
+        "remote": "slim", 
+        "target_path":  "device/sony/qcom-common",
+        "revision":     "jb4.2"
+    },
+    {
+        "repository":   "device_sony_fuji-common",
+        "remote": "slim", 
+        "target_path":  "device/sony/fuji-common",
+        "revision":     "jb4.2"
+    },
+    {
+        "repository":   "proprietary_vendor_sony",
+        "remote": "slim", 
+        "target_path":  "vendor/sony",
+        "revision":     "jb4.2"
+    },
+    {
+        "repository":   "deedwar/evolve",
+        "remote": "gh", 
+        "target_path":  "kernel/sony/msm8x60",
+        "revision":     "evolve-1.17"
+    },
+    {
+        "repository":   "hardware_qcom_display-cafold",
+        "remote": "slim", 
+        "target_path":  "hardware/qcom/display-cafold",
+        "revision":     "jb4.2"
+    },
+    {
+        "repository":   "hardware_qcom_audio-cafold",
+        "remote": "slim", 
+        "target_path":  "hardware/qcom/audio-cafold",
+        "revision":     "jb4.2"
+    }
+]

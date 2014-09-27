@@ -1,5 +1,6 @@
 # Copyright (C) 2012 FXP (FreeXperia)
 # Copyright (C) 2013 The Open SEMC Team
+# Copyright (C) 2014 ZAP-ROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,25 +18,25 @@
 $(call inherit-product, device/sony/nozomi/full_nozomi.mk)
 
 # Inherit common GSM stuff.
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/zap/config/common.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/zap/config/nfc_enhanced.mk)
 
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 PRODUCT_COPY_FILES +=  \
-    vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/zap/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Inherit common Phone stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+$(call inherit-product, vendor/zap/config/common_full_phone.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := nozomi
 
-PRODUCT_NAME := slim_nozomi
+PRODUCT_NAME := zap_nozomi
 PRODUCT_DEVICE := nozomi
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := Xperia S
